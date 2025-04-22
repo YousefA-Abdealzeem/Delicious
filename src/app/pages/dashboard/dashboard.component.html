@@ -1,0 +1,54 @@
+<div class="container mt-4">
+  <h2 class="mb-4 text-center">📥 Contact Messages Dashboard</h2>
+
+  <div class="table-responsive">
+    <table class="table table-bordered text-center mx-auto" style="max-width: 90%;">
+      <thead class="frist-table">
+        <tr class="frist-tr">
+          <th>#</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Subject</th>
+          <th>Message</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+
+      <tbody class="tbody-api">
+        <tr *ngFor="let msg of messages; let i = index">
+          <td data-label="#"> {{ i + 1 }} </td>
+
+          <td data-label="Name">
+            <span *ngIf="editingMessageId !== msg.id">{{ msg.name }}</span>
+            <input *ngIf="editingMessageId === msg.id" [(ngModel)]="editedMessage.name" class="form-control">
+          </td>
+
+          <td data-label="Email">
+            <span *ngIf="editingMessageId !== msg.id">{{ msg.email }}</span>
+            <input *ngIf="editingMessageId === msg.id" [(ngModel)]="editedMessage.email" class="form-control">
+          </td>
+
+          <td data-label="Subject">
+            <span *ngIf="editingMessageId !== msg.id">{{ msg.subject }}</span>
+            <input *ngIf="editingMessageId === msg.id" [(ngModel)]="editedMessage.subject" class="form-control">
+          </td>
+
+          <td data-label="Message">
+            <span *ngIf="editingMessageId !== msg.id">{{ msg.message }}</span>
+            <input *ngIf="editingMessageId === msg.id" [(ngModel)]="editedMessage.message" class="form-control">
+          </td>
+
+          <td data-label="Actions">
+            <div class="d-flex flex-wrap gap-2 justify-content-center">
+              <button class="btn  text-white fw-bold" *ngIf="editingMessageId !== msg.id" (click)="startEdit(msg.id)">Edit</button>
+              <button class="btn btn-del text-white fw-bold" *ngIf="editingMessageId !== msg.id" (click)="deleteMessage(msg.id)">Delete</button>
+              <button class="btn  text-white fw-bold" *ngIf="editingMessageId === msg.id" (click)="saveEdit()">Save</button>
+              <button class="btn  btn-del text-white fw-bold" *ngIf="editingMessageId === msg.id" (click)="cancelEdit()">Cancel</button>
+            </div>
+          </td>
+
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

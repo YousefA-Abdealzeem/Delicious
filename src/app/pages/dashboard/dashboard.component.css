@@ -1,0 +1,95 @@
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 100px auto;
+
+}
+
+h2 {
+  color: #000000;
+}
+
+th, td {
+  padding: 12px 16px;
+  vertical-align: middle;
+}
+.frist-tr th{
+  background-color: rgb(252, 169, 44);
+}
+
+.btn {
+  padding: 6px 12px;
+  border: none;
+  width: 90px;
+  border-radius: 20px;
+  font-size: 14px;
+  background-color: rgb(255, 176, 59);
+  transition: all ease 0.5s;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn-primary {
+  background-color: #ffc107;
+  color: #333;
+}
+
+.btn-del {
+  background-color: #9e0111;
+  color: #fff;
+}
+
+/* عشان تكون زي صفحة contact */
+.container {
+  padding: 30px;
+
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+
+@media (max-width: 768px) {
+  table thead {
+    display: none;
+  }
+
+  table, tbody, tr, td {
+    display: block;
+    width: 100%;
+  }
+
+
+  tr {
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background: #f9f9f9;
+  }
+
+  td {
+    text-align: left !important;
+    padding: 0.75rem;
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+  }
+
+  td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+
+  .d-flex {
+    flex-direction: column;
+  }
+
+  .d-flex button {
+    width: 100% !important;
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "menu": [
+    {
+      "id": "1",
+      "title": "Lobster Bisque",
+      "price": "$5.95",
+      "category": "starters",
+      "image": "assets/img/menu/lobster-bisque.jpg",
+      "ingredients": "Lorem, deren, trataro, filede, nerada"
+    },
+    {
+      "id": "2",
+      "title": "Bread Barrel",
+      "price": "$6.95",
+      "category": "specialty",
+      "image": "assets/img/menu/bread-barrel.jpg",
+      "ingredients": "Lorem, deren, trataro, filede, nerada"
+    },
+    {
+      "id": "3",
+      "title": "Crab Cake",
+      "price": "$7.95",
+      "category": "starters",
+      "image": "assets/img/menu/cake.jpg",
+      "ingredients": "A delicate crab cake served on a toasted roll"
+    },
+    {
+      "id": "4",
+      "title": "Caesar Selections",
+      "price": "$8.95",
+      "category": "salads",
+      "image": "assets/img/menu/caesar.jpg",
+      "ingredients": "Lorem, deren, trataro, filede, nerada"
+    },
+    {
+      "id": "5",
+      "title": "Tuscan Grilled",
+      "price": "$9.95",
+      "category": "specialty",
+      "image": "assets/img/menu/tuscan-grilled.jpg",
+      "ingredients": "Grilled chicken with provolone"
+    },
+    {
+      "id": "6",
+      "title": "Mozzarella Stick",
+      "price": "$4.95",
+      "category": "starters",
+      "image": "assets/img/menu/mozzarella.jpg",
+      "ingredients": "Lorem, deren, trataro, filede, nerada"
+    },
+    {
+      "id": "7",
+      "title": "Greek Salad",
+      "price": "$9.95",
+      "category": "salads",
+      "image": "assets/img/menu/greek-salad.jpg",
+      "ingredients": "Greek olives and crisp romaine"
+    },
+    {
+      "id": "8",
+      "title": "Spinach Salad",
+      "price": "$9.95",
+      "category": "salads",
+      "image": "assets/img/menu/spinach-salad.jpg",
+      "ingredients": "Mushrooms, warm bacon vinaigrette"
+    },
+    {
+      "id": "9",
+      "title": "Lobster Roll",
+      "price": "$12.95",
+      "category": "specialty",
+      "image": "assets/img/menu/lobster-roll.jpg",
+      "ingredients": "Lobster meat, mayo and crisp lettuce"
+    }
+  ],
+  "chefs": [
+    {
+      "id": "1",
+      "name": "Walter White",
+      "title": "Master Chef",
+      "description": "Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.",
+      "image": "assets/img/chefs/chefs-1.jpg",
+      "twitter": "#",
+      "facebook": "#",
+      "instagram": "#",
+      "linkedin": "#"
+    },
+    {
+      "id": "2",
+      "name": "Sarah Jhonson",
+      "title": "Patissier",
+      "description": "Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima suscipit corporis. Voluptate sed quas reiciendis animi neque sapiente.",
+      "image": "assets/img/chefs/chefs-2.jpg",
+      "twitter": "#",
+      "facebook": "#",
+      "instagram": "#",
+      "linkedin": "#"
+    },
+    {
+      "id": "3",
+      "name": "William Anderson",
+      "title": "Cook",
+      "description": "Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.",
+      "image": "assets/img/chefs/chefs-3.jpg",
+      "twitter": "#",
+      "facebook": "#",
+      "instagram": "#",
+      "linkedin": "#"
+    }
+  ],
+  "contact": [
+    {
+      "location": "A108 Adam Street, New York, NY 535022",
+      "email": "info@example.com",
+      "phone": "+1 5589 55488 55",
+      "googleMapUrl": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282",
+      "id": "8740"
+    }
+  ],
+  "contactMessages": []
+}
